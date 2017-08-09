@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quack.Net", "Quack.Net\Quack.Net.csproj", "{A5719E08-1880-4562-86F3-FE9105EA8945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuackTest", "QuackTest\QuackTest.csproj", "{8484F920-B961-4198-AA89-D309002041CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5719E08-1880-4562-86F3-FE9105EA8945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5719E08-1880-4562-86F3-FE9105EA8945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5719E08-1880-4562-86F3-FE9105EA8945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5719E08-1880-4562-86F3-FE9105EA8945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8484F920-B961-4198-AA89-D309002041CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8484F920-B961-4198-AA89-D309002041CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8484F920-B961-4198-AA89-D309002041CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8484F920-B961-4198-AA89-D309002041CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
