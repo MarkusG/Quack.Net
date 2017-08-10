@@ -3,6 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
     <RootNamespace>DuckDuckGo</RootNamespace>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>Markus Gordathian</Authors>
+    <Description>A .Net wrapper for DuckDuckGo's Instant Answer API</Description>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <PackageTags>duckduckgo search</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.3\Quack.Net.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

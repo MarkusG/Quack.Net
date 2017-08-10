@@ -8,7 +8,7 @@ namespace DuckDuckGo
 {
     public class DuckDuckGoClient
     {
-        private HttpClient _client;
+        private static HttpClient _client;
         private string _appName;
 
         /// <summary>
