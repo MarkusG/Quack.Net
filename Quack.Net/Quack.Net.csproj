@@ -3,10 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
     <RootNamespace>DuckDuckGo</RootNamespace>
+    <Title>Quack.Net</Title>
     <PackageVersion>1.0.1</PackageVersion>
     <Authors>Markus Gordathian</Authors>
     <Description>A .Net wrapper for DuckDuckGo's Instant Answer API</Description>
-    <PackageReleaseNotes>First release</PackageReleaseNotes>
     <PackageTags>duckduckgo search</PackageTags>
   </PropertyGroup>
 
