@@ -58,11 +58,13 @@ namespace DuckDuckGo
 
         public DuckDuckGoClient(string appName)
         {
-            _client = new HttpClient()
+            if (_client == null)
             {
-                Timeout = TimeSpan.FromSeconds(10),
-                BaseAddress = new Uri("http://api.duckduckgo.com/")
-            };
+                _client = new HttpClient()
+                {
+                    BaseAddress = new Uri("http://api.duckduckgo.com/")
+                };
+            }
             _appName = appName;
         }
     }
